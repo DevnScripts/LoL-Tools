@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfile>
+    <settings program="actionaz" version="3.8.0" scriptVersion="1.1.0" os="Windows"/>
+    <actions>
+        <action name="ActionMessageBox" version="1.0.0"/>
+        <action name="ActionBeginProcedure" version="1.0.0"/>
+        <action name="ActionClick" version="1.0.0"/>
+        <action name="ActionWindowCondition" version="1.0.0"/>
+        <action name="ActionEndProcedure" version="1.0.0"/>
+        <action name="ActionFindImage" version="1.1.0"/>
+        <action name="ActionStop" version="1.0.0"/>
+    </actions>
+    <parameters>
+        <parameter name="errorMessage" code="0" type="0">An unknown error has occured!</parameter>
+    </parameters>
+    <resources>
+        <resource id="play" type="2">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</resource>
+    </resources>
+    <script pauseBefore="0" pauseAfter="0">
+        <action name="ActionMessageBox" comment="Notify user about tool" color="#55ff7f">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="windowIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="message">
+                <subParameter name="value" code="0">Welcome to Devn's Auto-Queuer!
+
+To start this tool follow these steps:
+    1) Open League of Legends.
+    2) Log into League of Legends.
+    3) Go to home page of League of Legends.
+    4) Press &quot;OK&quot;!
+
+Notes:
+    - This tool will AUTOMATICALLY start another ranked queue after you finish a game.
+    - To stop this tool go down to your toolbar and close the program called &quot;Actionaz&quot; and stop searching for a game.</subParameter>
+            </parameter>
+            <parameter name="title">
+                <subParameter name="value" code="0">Devn's Auto-Queuer</subParameter>
+            </parameter>
+            <parameter name="textMode">
+                <subParameter name="value" code="0">automatic</subParameter>
+            </parameter>
+            <parameter name="ifYes">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+            <parameter name="customIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="icon">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">ok</subParameter>
+            </parameter>
+            <parameter name="ifNo">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionWindowCondition" comment="Check for &quot;PVP.net Client&quot;" color="#55ff7f">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="width">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="title">
+                <subParameter name="value" code="0">PVP.net Client</subParameter>
+            </parameter>
+            <parameter name="condition">
+                <subParameter name="value" code="0">exists</subParameter>
+            </parameter>
+            <parameter name="size">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="processId">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="height">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="ifTrue">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+            <parameter name="ifFalse">
+                <subParameter name="line" code="1">errorMessage = &quot;Could not find PVP.net Client!&quot;;
+Script.callProcedure(&quot;ErrorOccured&quot;);</subParameter>
+                <subParameter name="action" code="0">run_code</subParameter>
+            </parameter>
+            <parameter name="yCoordinate">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="xCoordinate">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionFindImage" comment="Get &quot;Play&quot; button position" color="#55ff7f">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="confidence">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="ifFound">
+                <subParameter name="line" code="1">Console.print(pos_Play);</subParameter>
+                <subParameter name="action" code="0">run_code</subParameter>
+            </parameter>
+            <parameter name="method">
+                <subParameter name="value" code="0">correlationcoefficient</subParameter>
+            </parameter>
+            <parameter name="searchExpansion">
+                <subParameter name="value" code="0">15</subParameter>
+            </parameter>
+            <parameter name="searchDelay">
+                <subParameter name="value" code="0">100</subParameter>
+            </parameter>
+            <parameter name="windowName">
+                <subParameter name="value" code="0">PVP.net Client</subParameter>
+            </parameter>
+            <parameter name="confidenceMinimum">
+                <subParameter name="value" code="0">70</subParameter>
+            </parameter>
+            <parameter name="downPyramidCount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="imageToFind">
+                <subParameter name="value" code="0">$play</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0">pos_Play</subParameter>
+            </parameter>
+            <parameter name="ifNotFound">
+                <subParameter name="line" code="1">errorMessage = &quot;Please go to the homepage of League of Legends and then restart this tool!&quot;;
+Script.callProcedure(&quot;ErrorOccured&quot;);</subParameter>
+                <subParameter name="action" code="0">run_code</subParameter>
+            </parameter>
+            <parameter name="imageToSearchIn">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="source">
+                <subParameter name="value" code="0">window</subParameter>
+            </parameter>
+            <parameter name="maximumMatches">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="windowRelativePosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Click &quot;Play&quot; button" color="#55ff7f">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">pos_Play</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionBeginProcedure" comment="Procedure: ErrorOccured" color="#ff9ea0">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">ErrorOccured</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionMessageBox" color="#ff9ea0">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="windowIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="message">
+                <subParameter name="value" code="0">$errorMessage</subParameter>
+            </parameter>
+            <parameter name="title">
+                <subParameter name="value" code="0">Devn's Auto-Queuer</subParameter>
+            </parameter>
+            <parameter name="textMode">
+                <subParameter name="value" code="0">automatic</subParameter>
+            </parameter>
+            <parameter name="ifYes">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+            <parameter name="customIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="icon">
+                <subParameter name="value" code="0">error</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">ok</subParameter>
+            </parameter>
+            <parameter name="ifNo">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionStop" color="#ff9ea0">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionEndProcedure" color="#ff9ea0">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+    </script>
+</scriptfile>
